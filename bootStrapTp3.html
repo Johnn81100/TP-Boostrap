@@ -9,10 +9,92 @@
     <title>Document</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+             <a class="navbar-brand" href="#">Mon super menu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Menu 1</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                      </li>
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Menu déroulant
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                </div>
+        </div> 
+    </nav>
     <div class="container ">
-        <div class="row d-flex justify-content-between border border-primary  ">
-          <div class="col-5 text-bg-danger my-3 ms-2   ">1 ère colonne</div>
-          <div class="col-5 text-bg-warning my-3 me-2 ">2 ère colonne</div>
+        <div class="row border  py-1 border-primary pt-3  ">
+            <div class="col-4 d-flex justify-content-center d-flex p-0">
+                <div class="card " style="width: 29rem;">
+                    <img src="https://picsum.photos/id/237/200/300" class="card-img-top" alt="photo de chien">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Article 1</h5>
+                        <p class="card-text ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus facere odit reiciendis necessitatibus possimus nihil ea cum, iusto eligendi omnis fuga impedit quod natus odio autem, perspiciatis veniam. Consequuntur, ex.
+                        Illo doloremque ea iure accusantium quibusdam, ratione aliquid doloribus, veritatis, voluptatibus odit labore et eius voluptatum quod! Dolorum, iusto ducimus aliquid voluptatibus delectus neque harum. Labore blanditiis nam officiis ipsam?</p>
+                        <div class=" d-flex flex-row-reverse">
+                            <a href="#" class="btn btn-primary">lire plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center d-flex p-0">
+                 <div class="card " style="width: 28rem;">
+                <img src="https://picsum.photos/id/237/200/300" class="card-img-top" alt="photo de chien">
+                    <div class="card-body text-end">
+                        <h5 class="card-title text-center">Article 1</h5>
+                        <p class="card-texttext-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus facere odit reiciendis necessitatibus possimus nihil ea cum, iusto eligendi omnis fuga impedit quod natus odio autem, perspiciatis veniam. Consequuntur, ex.
+                         Illo doloremque ea iure accusantium quibusdam, ratione aliquid doloribus, veritatis, voluptatibus odit labore et eius voluptatum quod! Dolorum, iusto ducimus aliquid voluptatibus delectus neque harum. Labore blanditiis nam officiis ipsam?</p>
+                        <a href="#" class="btn btn-primary">lire plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 d-flex justify-content-centerd-flex p-0">
+                <div class="card  " style="width: 28rem;">
+                    <img src="https://picsum.photos/id/237/200/300" class="card-img-top img-fluid" alt="photo de chien">
+                    <div class="card-body text-end">
+                        <h5 class="card-title text-center">Article 1</h5>
+                        <p class="card-text text-start">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus facere odit reiciendis necessitatibus possimus nihil ea cum, iusto eligendi omnis fuga impedit quod natus odio autem, perspiciatis veniam. Consequuntur, ex.
+                        Illo doloremque ea iure accusantium quibusdam, ratione aliquid doloribus, veritatis, voluptatibus odit labore et eius voluptatum quod! Dolorum, iusto ducimus aliquid voluptatibus delectus neque harum. Labore blanditiis nam officiis ipsam?</p>
+                        <a href="#" class="btn btn-primary  ">lire plus</a>
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class=" border border py-1 border-primary my-3 mx-1">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">Menu 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">Menu déroulant</a>
+            </li>
+          </ul>
+    </footer>
+
+
+
+        
+        
 
     
 </body>
