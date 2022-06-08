@@ -1,0 +1,53 @@
+// .test
+// {
+//     background-color: chartreuse;
+//     color: chocolate;
+// }
+//on peut  importer des fichiers
+@import "./variables.scss";
+// NESTING
+// div
+// {
+//     background-color: royalblue;
+
+//     p 
+//     {
+//         color:orange;
+//     }
+// }
+
+// .super
+// {
+//     background-color: $fond;
+// }
+
+.container
+{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    p
+    {
+        background-color:radial-gradient(white, royalblue);
+        margin-left: 10px;
+        margin-right: 10px;
+        span
+        {
+            font-style: $ita;
+        }
+    }
+    img
+    {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+   
+}
+h2
+{
+    
+        font-weight: bold;
+        font-family:$Text,
+        text-align: center;
+    
+}
